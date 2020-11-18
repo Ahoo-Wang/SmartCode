@@ -1,18 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SmartSql.Options" Version="4.1.50" />
-    <PackageReference Include="SmartSql.TypeHandler" Version="4.1.50" />
-    <PackageReference Include="SmartSql.TypeHandler.PostgreSql" Version="4.1.50" />
+    <PackageReference Include="SmartSql.Options" Version="4.1.53" />
+    <PackageReference Include="SmartSql.TypeHandler" Version="4.1.53" />
+    <PackageReference Include="SmartSql.TypeHandler.PostgreSql" Version="4.1.53" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
-    <PackageReference Include="System.Data.SQLite" Version="1.0.112" />
-    <PackageReference Include="MySql.Data" Version="8.0.19" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.113.1" />
+    <PackageReference Include="MySql.Data" Version="8.0.20" />
     <PackageReference Include="Npgsql" Version="4.1.3.1" />
-    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.60" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.70" />
   </ItemGroup>
 
   <ItemGroup>

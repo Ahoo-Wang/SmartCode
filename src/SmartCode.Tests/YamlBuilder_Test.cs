@@ -10,7 +10,7 @@ namespace SmartCode.Tests
         [Fact]
         public void Build()
         {
-            var configPath = @"E:\Ahoo\SmartCode\doc\SmartCode.yml";
+            var configPath = @"E:\projects\SmartCode\doc\SmartCode.yml";
             YamlBuilder yamlBuilder = new YamlBuilder(configPath);
             var project = yamlBuilder.Build();
         }
