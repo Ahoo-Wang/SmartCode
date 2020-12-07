@@ -37,7 +37,7 @@ namespace SmartCode.App.BuildTasks
             var startInfo = new ProcessStartInfo(fileName)
             {
                 UseShellExecute = false,
-                RedirectStandardInput = true,
+                RedirectStandardInput = false,
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
                 CreateNoWindow = DEFAULT_CREATE_NO_WINDOW
@@ -103,7 +103,7 @@ namespace SmartCode.App.BuildTasks
                 }
                 _logger.LogDebug($"--------Process.FileName:{startInfo.FileName},Args:{startInfo.Arguments},Taken:{process.TotalProcessorTime.TotalMilliseconds} End--------");
             }
-            return  Task.CompletedTask;
+            return Task.CompletedTask;
         }
 
         private void Process_ErrorDataReceived(object sender, DataReceivedEventArgs e)
